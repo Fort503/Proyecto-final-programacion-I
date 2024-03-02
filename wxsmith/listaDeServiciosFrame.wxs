@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="listaDeServiciosFrame">
+		<size>500,350</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>320,248</pos>
+			<bg>#FEF7FF</bg>
+			<handler function="OnPanel1Paint" entry="EVT_PAINT" />
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Lista de Servicios ofrecidos</label>
+				<pos>128,48</pos>
+				<size>304,40</size>
+				<font>
+					<size>18</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/lista-de-verificacion.png</bitmap>
+				<pos>40,32</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Codigo: 01| Servicio: Desarrollo de Software&#x0A;Codigo: 02| Servicio: Soporte tecnico&#x0A;Codigo: 03| Servicio: Consultoria&#x0A;Codigo: 04| Servicio: Mantenimiento de software&#x0A;Codigo: 05| Servicio: Gestion de proyectos&#x0A;</label>
+				<pos>48,112</pos>
+				<size>392,112</size>
+				<bg>#FFFFFF</bg>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/salida.png</bitmap>
+				<pos>56,248</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="regresarBoton" member="yes">
+				<label>Regrear</label>
+				<pos>144,264</pos>
+				<size>296,35</size>
+				<bg>#F7F2FA</bg>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnregresarBotonClick" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>

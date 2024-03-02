@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="nuevaLlamadaFrame">
+		<size>500,350</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>224,216</pos>
+			<bg>#FEF7FF</bg>
+			<handler function="OnPanel1Paint" entry="EVT_PAINT" />
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/nuevo-producto.png</bitmap>
+				<pos>64,16</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Registrar una llamada</label>
+				<pos>136,32</pos>
+				<size>240,40</size>
+				<font>
+					<size>18</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Nombre o codigo del cliente:</label>
+				<pos>16,112</pos>
+				<size>200,19</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="clienteTextControl" member="yes">
+				<pos>232,104</pos>
+				<size>248,35</size>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Servicio de la llamada: </label>
+				<pos>48,184</pos>
+				<size>160,19</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+			</object>
+			<object class="wxComboBox" name="ID_COMBOBOX1" variable="servicioCombo" member="yes">
+				<content>
+					<item>Desarrollo de Software</item>
+					<item>Soporte tecnico</item>
+					<item>Consultoria</item>
+					<item>Mantenimiento de Software</item>
+					<item>Gestion de proyectos</item>
+				</content>
+				<pos>232,176</pos>
+				<size>248,35</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="guardarLlamadaBoton" member="yes">
+				<label>Guardar llamada</label>
+				<pos>16,240</pos>
+				<size>218,35</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnguardarLlamadaBotonClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="RegresarBoton" member="yes">
+				<label>Regresar</label>
+				<pos>264,240</pos>
+				<size>218,35</size>
+				<bg>#F7F2FA</bg>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnRegresarBotonClick" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>

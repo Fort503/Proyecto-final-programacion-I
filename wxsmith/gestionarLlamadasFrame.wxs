@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="gestionarLlamadasFrame">
+		<size>400,400</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>96,144</pos>
+			<bg>#FEF7FF</bg>
+			<handler function="OnPanel1Paint" entry="EVT_PAINT" />
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Gestionar llamadas</label>
+				<pos>0,0</pos>
+				<size>400,32</size>
+				<bg>#F3EDF7</bg>
+				<font>
+					<size>17</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<style>wxALIGN_CENTRE</style>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/nuevo-producto.png</bitmap>
+				<pos>16,104</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/lista-de-verificacion.png</bitmap>
+				<pos>16,184</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxStaticBitmap" name="ID_STATICBITMAP3" variable="StaticBitmap3" member="yes">
+				<bitmap>/home/fort/documentos/proyectos/aplicacionDeLLamadas/assets/salida.png</bitmap>
+				<pos>16,264</pos>
+				<size>64,64</size>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="registrarLlamadaBoton" member="yes">
+				<label>Registrar una nueva llamada</label>
+				<pos>96,128</pos>
+				<size>248,35</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnregistrarLlamadaBotonClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="verListaBoton" member="yes">
+				<label>Ver lista de llamadas registradas</label>
+				<pos>96,200</pos>
+				<size>248,35</size>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>light</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnverListaBotonClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON3" variable="regresarBoton" member="yes">
+				<label>Regresar</label>
+				<pos>96,272</pos>
+				<size>248,35</size>
+				<bg>#F7F2FA</bg>
+				<font>
+					<size>12</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>default</family>
+					<face>Roboto</face>
+				</font>
+				<handler function="OnButton3Click" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aplicacionDeLLamadas" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/aplicacionDeLLamadas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/aplicacionDeLLamadas" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="`wx-config --cflags`" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+		</Linker>
+		<Unit filename="aplicacionDeLLamadasApp.cpp" />
+		<Unit filename="aplicacionDeLLamadasApp.h" />
+		<Unit filename="aplicacionDeLLamadasMain.cpp" />
+		<Unit filename="aplicacionDeLLamadasMain.h" />
+		<Unit filename="editarClienteFrame.cpp" />
+		<Unit filename="editarClienteFrame.h" />
+		<Unit filename="estructuras.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="gestionarClientesFrame.cpp" />
+		<Unit filename="gestionarClientesFrame.h" />
+		<Unit filename="gestionarLlamadasFrame.cpp" />
+		<Unit filename="gestionarLlamadasFrame.h" />
+		<Unit filename="gestionarServiciosFrame.cpp" />
+		<Unit filename="gestionarServiciosFrame.h" />
+		<Unit filename="listaDeClientesFrame.cpp" />
+		<Unit filename="listaDeClientesFrame.h" />
+		<Unit filename="listaDeLLamadasFrame.cpp" />
+		<Unit filename="listaDeLLamadasFrame.h" />
+		<Unit filename="listaDeServiciosFrame.cpp" />
+		<Unit filename="listaDeServiciosFrame.h" />
+		<Unit filename="nuevaLlamadaFrame.cpp" />
+		<Unit filename="nuevaLlamadaFrame.h" />
+		<Unit filename="nuevoClienteFrame.cpp" />
+		<Unit filename="nuevoClienteFrame.h" />
+		<Unit filename="wxsmith/aplicacionDeLLamadasframe.wxs" />
+		<Unit filename="wxsmith/editarClienteFrame.wxs" />
+		<Unit filename="wxsmith/gestionarClientesFrame1.wxs" />
+		<Unit filename="wxsmith/gestionarLlamadasFrame.wxs" />
+		<Unit filename="wxsmith/gestionarServiciosFrame.wxs" />
+		<Unit filename="wxsmith/listaDeClientesFrame.wxs" />
+		<Unit filename="wxsmith/listaDeLLamadasFrame.wxs" />
+		<Unit filename="wxsmith/listaDeServiciosFrame.wxs" />
+		<Unit filename="wxsmith/nuevaLlamadaFrame.wxs" />
+		<Unit filename="wxsmith/nuevoClienteFrame.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="aplicacionDeLLamadasApp.cpp" main="aplicacionDeLLamadasFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/aplicacionDeLLamadasframe.wxs" src="aplicacionDeLLamadasMain.cpp" hdr="aplicacionDeLLamadasMain.h" fwddecl="0" i18n="1" name="aplicacionDeLLamadasFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/gestionarClientesFrame1.wxs" src="gestionarClientesFrame.cpp" hdr="gestionarClientesFrame.h" fwddecl="0" i18n="1" name="gestionarClientesFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/nuevoClienteFrame.wxs" src="nuevoClienteFrame.cpp" hdr="nuevoClienteFrame.h" fwddecl="0" i18n="1" name="nuevoClienteFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/listaDeClientesFrame.wxs" src="listaDeClientesFrame.cpp" hdr="listaDeClientesFrame.h" fwddecl="0" i18n="1" name="listaDeClientesFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/editarClienteFrame.wxs" src="editarClienteFrame.cpp" hdr="editarClienteFrame.h" fwddecl="0" i18n="1" name="editarClienteFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/gestionarServiciosFrame.wxs" src="gestionarServiciosFrame.cpp" hdr="gestionarServiciosFrame.h" fwddecl="0" i18n="1" name="gestionarServiciosFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/listaDeServiciosFrame.wxs" src="listaDeServiciosFrame.cpp" hdr="listaDeServiciosFrame.h" fwddecl="0" i18n="1" name="listaDeServiciosFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/gestionarLlamadasFrame.wxs" src="gestionarLlamadasFrame.cpp" hdr="gestionarLlamadasFrame.h" fwddecl="0" i18n="1" name="gestionarLlamadasFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/listaDeLLamadasFrame.wxs" src="listaDeLLamadasFrame.cpp" hdr="listaDeLLamadasFrame.h" fwddecl="0" i18n="1" name="listaDeLLamadasFrame" language="CPP" />
+					<wxFrame wxs="wxsmith/nuevaLlamadaFrame.wxs" src="nuevaLlamadaFrame.cpp" hdr="nuevaLlamadaFrame.h" fwddecl="0" i18n="1" name="nuevaLlamadaFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
